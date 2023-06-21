@@ -1,0 +1,12 @@
+<h2>Hello Word!</h2>
+
+<ul>
+    <% @products.each do |product| %>
+        <li class="product">
+            <p><%= product.title %></p>
+            <p><%= product.description %></p>
+            <p><%= product.price %></p>
+            <%= link_to 'Visualizar', product_path(product.id) %>
+        </li>
+    <% end %>
+</ul>

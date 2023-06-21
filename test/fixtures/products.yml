@@ -1,0 +1,11 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+ps4:
+  title: PS4 em bom estado
+  description: melhor custo beneficio
+  price: 358.92
+
+bolaDeFutebol:
+  title: Bola de Futebol infantil
+  description: Bola para as crianças
+  price: 224.98

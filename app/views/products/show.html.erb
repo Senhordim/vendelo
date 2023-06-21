@@ -1,0 +1,15 @@
+<div class="product">
+  <h2 class="title"><%= @product.title %></h2>
+
+  <p>
+    <strong>Description:</strong>
+    <%= @product.description %>
+  </p>
+
+  <p class="price">
+      <strong>Valor:</strong>
+      <%= @product.price %>
+  </p>
+
+  <%= link_to 'Voltar', products_path %>
+</div>
